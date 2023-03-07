@@ -1,0 +1,11 @@
+C:\Users\ххх\source\repos\звезды\звезды\bin\Debug\звезды.exe.config
+C:\Users\ххх\source\repos\звезды\звезды\bin\Debug\звезды.exe
+C:\Users\ххх\source\repos\звезды\звезды\bin\Debug\звезды.pdb
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.csproj.AssemblyReference.cache
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.csproj.SuggestedBindingRedirects.cache
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.Form1.resources
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.Properties.Resources.resources
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.csproj.GenerateResource.cache
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.csproj.CoreCompileInputs.cache
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.exe
+C:\Users\ххх\source\repos\звезды\звезды\obj\Debug\звезды.pdb

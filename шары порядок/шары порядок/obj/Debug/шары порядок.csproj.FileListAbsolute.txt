@@ -1,0 +1,11 @@
+C:\Users\ххх\source\repos\шары порядок\шары порядок\bin\Debug\шары порядок.exe.config
+C:\Users\ххх\source\repos\шары порядок\шары порядок\bin\Debug\шары порядок.exe
+C:\Users\ххх\source\repos\шары порядок\шары порядок\bin\Debug\шары порядок.pdb
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары порядок.csproj.AssemblyReference.cache
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары порядок.csproj.SuggestedBindingRedirects.cache
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары_порядок.Form1.resources
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары_порядок.Properties.Resources.resources
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары порядок.csproj.GenerateResource.cache
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары порядок.csproj.CoreCompileInputs.cache
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары порядок.exe
+C:\Users\ххх\source\repos\шары порядок\шары порядок\obj\Debug\шары порядок.pdb

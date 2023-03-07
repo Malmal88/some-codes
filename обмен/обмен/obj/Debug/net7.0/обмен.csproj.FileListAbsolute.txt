@@ -1,0 +1,15 @@
+C:\Users\ххх\source\repos\обмен\обмен\bin\Debug\net7.0\обмен.exe
+C:\Users\ххх\source\repos\обмен\обмен\bin\Debug\net7.0\обмен.deps.json
+C:\Users\ххх\source\repos\обмен\обмен\bin\Debug\net7.0\обмен.runtimeconfig.json
+C:\Users\ххх\source\repos\обмен\обмен\bin\Debug\net7.0\обмен.dll
+C:\Users\ххх\source\repos\обмен\обмен\bin\Debug\net7.0\обмен.pdb
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.csproj.AssemblyReference.cache
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.AssemblyInfoInputs.cache
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.AssemblyInfo.cs
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.csproj.CoreCompileInputs.cache
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.dll
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\refint\обмен.dll
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.pdb
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\обмен.genruntimeconfig.cache
+C:\Users\ххх\source\repos\обмен\обмен\obj\Debug\net7.0\ref\обмен.dll
