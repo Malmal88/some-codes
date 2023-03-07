@@ -1,0 +1,15 @@
+C:\Users\ххх\source\repos\ученики\ученики\bin\Debug\net7.0\ученики.exe
+C:\Users\ххх\source\repos\ученики\ученики\bin\Debug\net7.0\ученики.deps.json
+C:\Users\ххх\source\repos\ученики\ученики\bin\Debug\net7.0\ученики.runtimeconfig.json
+C:\Users\ххх\source\repos\ученики\ученики\bin\Debug\net7.0\ученики.dll
+C:\Users\ххх\source\repos\ученики\ученики\bin\Debug\net7.0\ученики.pdb
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.csproj.AssemblyReference.cache
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.AssemblyInfoInputs.cache
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.AssemblyInfo.cs
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.csproj.CoreCompileInputs.cache
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.dll
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\refint\ученики.dll
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.pdb
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ученики.genruntimeconfig.cache
+C:\Users\ххх\source\repos\ученики\ученики\obj\Debug\net7.0\ref\ученики.dll

@@ -1,0 +1,15 @@
+C:\Users\ххх\source\repos\палиндром\палиндром\bin\Debug\net7.0\палиндром.exe
+C:\Users\ххх\source\repos\палиндром\палиндром\bin\Debug\net7.0\палиндром.deps.json
+C:\Users\ххх\source\repos\палиндром\палиндром\bin\Debug\net7.0\палиндром.runtimeconfig.json
+C:\Users\ххх\source\repos\палиндром\палиндром\bin\Debug\net7.0\палиндром.dll
+C:\Users\ххх\source\repos\палиндром\палиндром\bin\Debug\net7.0\палиндром.pdb
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.csproj.AssemblyReference.cache
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.AssemblyInfoInputs.cache
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.AssemblyInfo.cs
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.csproj.CoreCompileInputs.cache
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.dll
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\refint\палиндром.dll
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.pdb
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\палиндром.genruntimeconfig.cache
+C:\Users\ххх\source\repos\палиндром\палиндром\obj\Debug\net7.0\ref\палиндром.dll
