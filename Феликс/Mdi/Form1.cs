@@ -9,6 +9,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Mdi
 {
@@ -16,7 +17,7 @@ namespace Mdi
     {
         Form2 f2;
         Form3 f3;
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -59,20 +60,45 @@ namespace Mdi
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SaveFileDialog sfd= new SaveFileDialog();
+            SaveFileDialog sfd = new SaveFileDialog();
             sfd.Filter = "Xml files(*xml}|*.xml";
             if (sfd.ShowDialog() != DialogResult.OK) return;
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("<?xml version=\"1.0\"?>");
             sb.AppendLine("<root>");
-            foreach (Model s in Form3.models)
+            sb.AppendLine("<Brands>");
+            foreach (Brand br in DataContext.brands)
             {
-                sb.AppendLine($"<Model's name=\"{s.Name}\"Model's brand=\"{s.Brand}\"/>");
+                sb.AppendLine($"<Brand name=\"{br.Name}\" id=\"{br.id}\"/>");
             }
+            sb.AppendLine("</Brands>");
+            sb.AppendLine("<Models>");
+
+            foreach (Model s in DataContext.models)
+            {
+                sb.AppendLine($"<Model name=\"{s.Name}\" brandid=\"{s.Brand.id}\"/>");
+            }
+            sb.AppendLine("</Models>");
             sb.AppendLine("</root>");
             File.WriteAllText(sfd.FileName, sb.ToString());
         }
 
-       
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Xml files(*xml}|*.xml";
+            if (ofd.ShowDialog() != DialogResult.OK) return;
+            var doc = XDocument.Load(ofd.FileName);
+            DataContext.brands.Clear();
+            DataContext.models.Clear();
+            foreach (var brand in doc.Element("root").Elements("Brand"))
+            {
+                var br= brand.Attribute("name").Value;
+                var id= brand.Attribute("id").Value;
+                DataContext.brands.Add(new Brand() { Name = br, id = int.Parse(id) });
+            }
+
+
+        }
     }
 }

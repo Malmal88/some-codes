@@ -20,13 +20,12 @@ namespace Mdi
         public void Update()
         {
             listView1.Items.Clear();
-            foreach (Brand s in brands)
+            foreach (Brand s in DataContext.brands)
             {
                 listView1.Items.Add(new ListViewItem(new string[] { s.Name, s.id.ToString() }) { Tag = s });
             }
         }
-        static public List<Brand> brands = new List<Brand>();        
-        public int nextid = 1;
+        
         private void toolStripButton1_Click(object sender, EventArgs e)// Добавить
         {
             Form4 fadd = new Form4();
@@ -34,9 +33,9 @@ namespace Mdi
             if (fadd.DialogResult == DialogResult.OK)
             {
                 var newBrand = fadd.brand;
-                newBrand.id = nextid;
-                brands.Add(newBrand);
-                nextid++;
+                newBrand.id = DataContext.nextid;
+                DataContext.brands.Add(newBrand);
+                DataContext.nextid++;
                 Update();
             }
             
@@ -53,11 +52,11 @@ namespace Mdi
             //    if (b.Brand.Name == brand.Name)
             //    {
             //        Form3.models.Remove(b);
-                    
+
             //    }
-                   
+
             //}
-            brands.Remove(brand);
+            DataContext.brands.Remove(brand);
             Update();
             
 

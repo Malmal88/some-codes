@@ -15,7 +15,7 @@ namespace Mdi
         public Form5()
         {
             InitializeComponent();
-            Brand[] br = Form2.brands.ToArray();
+            Brand[] br = DataContext.brands.ToArray();
             Init(br);
         }
 
@@ -30,9 +30,16 @@ namespace Mdi
         public Model Model = new Model();
         private void button1_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Select brand");
+                return;
+            }
+                
+            if (textBox1.Text == string.Empty) return;
             DialogResult = DialogResult.OK;
             Model.Name = textBox1.Text;
-            var brand=((ComboboxItem)comboBox1.SelectedItem).Tag as Brand;
+            var brand = ((ComboboxItem)comboBox1.SelectedItem).Tag as Brand;
             Model.Brand = brand;
             Close();
         }
