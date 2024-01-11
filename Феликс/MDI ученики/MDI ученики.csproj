@@ -73,7 +73,7 @@
       <DependentUpon>TeacherAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Teacher.cs" />
-    <Compile Include="Srudent.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="Teachers.cs">
       <SubType>Form</SubType>
