@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<root>
+<Teachers>
+<Teacher surname="Тутова" name="Галина" secondname="Михайловна" id="1"/>
+<Teacher surname="Бряков" name="Валерий" secondname="Анатольевич" id="2"/>
+<Teacher surname="Шмыгова" name="Лариса" secondname="Конрдратьевна" id="3"/>
+</Teachers>
+<Classes>
+<Class name ="1а" id="4" teacherid ="1"/>
+<Class name ="1б" id="5" teacherid ="2"/>
+<Class name ="1в" id="6" teacherid ="3"/>
+</Classes>
+<Students>
+<Student surname="Монополь" name="Зигзаг" secondname ="Тутович" birthday="09.01.2024" classid="4"/>
+<Student surname="Хряк" name="Вадим" secondname ="Якович" birthday="18.06.2020" classid="4"/>
+<Student surname="Надоел" name="Мускат" secondname ="Игоревич" birthday="09.01.2024" classid="4"/>
+<Student surname="Тратата" name="Игнат" secondname ="Вадимович" birthday="16.01.2024" classid="5"/>
+<Student surname="Йохохо" name="Тапир" secondname ="Давыдович" birthday="11.01.2024" classid="6"/>
+</Students>
+</root>
